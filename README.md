@@ -13,6 +13,13 @@ SolidOak is a simple IDE for Rust. See [the website](https://sekao.net/solidoak/
 * Autocomplete via [Racer](https://github.com/phildawes/racer)
     - The binary releases come bundled with it, so no configuration is necessary
 
+## Install on Ubuntu
+
+[Download - solidoak_0.1.3_amd64.deb](https://github.com/williamspacefire/SolidOak/releases/download/0.1.3/solidoak_0.1.3_amd64.deb)
+
+If you using the Software Center for install SolidOak,
+ignore the warning "the package is of poor quality", click ignore and install. That warning is because the SolidOak is written in Rust
+
 ## Build Instructions
 
 Note: If neovim fails to build, try [cloning it directly](https://github.com/oakes/neovim) and running `make libnvim` to get more specific errors.
